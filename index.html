@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Crop Disease Detection</title>
+
+<link rel="stylesheet"
+href="{{ url_for('static',
+filename='style.css') }}">
+
+<link rel="stylesheet"
+href="{{ url_for('static',
+filename='animations.css') }}">
+
+</head>
+
+<body>
+
+<div class="container fade-in">
+
+<h1 class="title">
+🌿 AI Crop Disease Detection
+</h1>
+
+<p>
+Upload a leaf image to detect disease
+</p>
+
+<div class="card slide-up">
+
+<input
+type="file"
+id="imageInput"
+/>
+
+<button onclick="uploadImage()">
+Detect Disease
+</button>
+
+</div>
+
+<div id="result"
+class="result bounce">
+</div>
+
+</div>
+
+<script
+src="{{ url_for('static',
+filename='script.js') }}">
+</script>
+
+</body>
+</html>
