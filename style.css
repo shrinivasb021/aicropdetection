@@ -1,0 +1,80 @@
+body {
+
+font-family: Arial;
+background: linear-gradient(
+135deg,
+#00c853,
+#64dd17
+);
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 100vh;
+margin: 0;
+
+}
+
+.container {
+
+text-align: center;
+background: white;
+
+padding: 40px;
+
+border-radius: 12px;
+
+box-shadow:
+0 10px 30px rgba(0,0,0,0.2);
+
+}
+
+.title {
+
+color: green;
+
+font-size: 32px;
+
+margin-bottom: 10px;
+
+}
+
+.card {
+
+margin-top: 20px;
+
+}
+
+button {
+
+background: green;
+color: white;
+
+padding: 12px 25px;
+
+border: none;
+
+border-radius: 6px;
+
+cursor: pointer;
+
+font-size: 16px;
+
+}
+
+button:hover {
+
+background: darkgreen;
+
+}
+
+.result {
+
+margin-top: 20px;
+
+font-size: 18px;
+
+color: black;
+
+}
